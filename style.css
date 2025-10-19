@@ -1,0 +1,155 @@
+
+  /* ===== ESTILO BASE ===== */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #1b1b1b 0%, #0a0a0a 80%) fixed;
+    background-image: linear-gradient(135deg, rgba(198,40,40,0.25) 0%, rgba(21,101,192,0.25) 100%), 
+                      radial-gradient(circle at top left, rgba(255,0,0,0.15), transparent 50%),
+                      radial-gradient(circle at bottom right, rgba(0,60,255,0.15), transparent 50%);
+    background-blend-mode: screen;
+    color: #e6e6e6;
+  }
+
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 35px rgba(0,0,0,0.9);
+    border-bottom: 1px solid rgba(0, 217, 255, 0.3);
+  }
+
+  .logo {
+    width: 140px;
+    border-radius: 10px;
+  }
+
+  /* ===== TITULO NEÓN PARAGUAYO ===== */
+  .titulo {
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+    letter-spacing: 3px;
+    margin: 10px 0;
+  }
+
+  .pin {
+    color: #ff2b2b;
+    text-shadow: 0 0 10px #ff0000, 0 0 25px #ff4d4d;
+  }
+
+  .gui {
+    color: #f8f8f8;
+    text-shadow: 0 0 8px #fff, 0 0 15px #ccc;
+  }
+
+  .yt {
+    color: #007bff;
+    text-shadow: 0 0 10px #007bff, 0 0 25px #3399ff;
+  }
+
+  .sub {
+    color: #b0b0b0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+
+  .flag {
+  display: inline-block;
+  font-size: 0.45em;          /* 🔹 hace que el PY sea mucho más chico */
+  vertical-align: sub;      /* 🔹 lo eleva un poco, tipo subíndice */
+  margin-left: 3px;           /* 🔹 lo mantiene pegado */
+  filter: grayscale(1) brightness(10); /* 🔹 lo vuelve blanco */
+  text-shadow: 0 0 6px rgba(255,255,255,0.9);
+  opacity: 0.9;               /* 🔹 suaviza un poco el brillo */
+  transform: translateY(-2px);
+}
+
+
+
+  /* ===== REDES SOCIALES ===== */
+  .redes a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .redes a:hover {
+    color: #00bfff;
+    text-shadow: 0 0 10px #00bfff;
+  }
+
+  /* ===== SECCIONES ===== */
+  section {
+    background: rgba(10, 10, 10, 0.85);
+    margin: 40px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+    color: #dcdcdc;
+    transition: 0.3s;
+  }
+
+  section:hover {
+    box-shadow: 0 0 25px rgba(0,217,255,0.4);
+    transform: translateY(-2px);
+  }
+
+  h2 {
+    color: #00d9ff;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 217, 255, 0.4);
+    padding-bottom: 8px;
+    text-shadow: 0 0 8px rgba(0,217,255,0.7);
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+    color: #e0e0e0;
+  }
+
+  .descargas a {
+    display: inline-block;
+    background: linear-gradient(90deg, #00d9ff, #007bff);
+    color: #0a0f16;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .descargas a:hover {
+    background: linear-gradient(90deg, #ff4655, #d90000);
+    color: white;
+    box-shadow: 0 0 20px rgba(255,70,85,0.7);
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 640px;
+    height: 360px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,217,255,0.3);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background: #000;
+    color: #aaa;
+    border-top: 1px solid rgba(0,217,255,0.3);
+  }
