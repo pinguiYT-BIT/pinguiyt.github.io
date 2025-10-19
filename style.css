@@ -152,4 +152,38 @@
     background: #000;
     color: #aaa;
     border-top: 1px solid rgba(0,217,255,0.3);
-  }
+
+  }.descargas {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.boton-descarga,
+.boton-tutorial {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.boton-descarga {
+  background: linear-gradient(90deg, #00d9ff, #007bff);
+}
+
+.boton-descarga:hover {
+  background: linear-gradient(90deg, #ff4655, #d90000);
+  box-shadow: 0 0 15px rgba(255,70,85,0.6);
+}
+
+.boton-tutorial {
+  background: linear-gradient(90deg, #00ff88, #00b36b);
+}
+
+.boton-tutorial:hover {
+  background: linear-gradient(90deg, #33ff99, #00994d);
+  box-shadow: 0 0 15px rgba(0,255,136,0.6);
+}
